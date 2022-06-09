@@ -1,0 +1,91 @@
+:root {
+    --hovactcolor: #2196F3;
+    --textcolor: #757575;
+    --background: #FFFFFF;
+    --footermaincolor: #2F303A;
+    --titlecolor: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color:var(--background);
+    color: var(--textcolor);
+}
+
+
+.logo .logo-web {
+    color: var(--hovactcolor);
+}
+
+.logo .head-studio {
+    color: black;
+}
+
+.site-nav .link.current {
+    color: var(--hovactcolor);
+}
+    
+.site-nav .link {
+    color: var(--titlecolor);
+}
+
+.site-nav .link:active {
+    color: var(--hovactcolor);
+}
+
+.site-contacts .link {
+    color: var(--textcolor);
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var(--hovactcolor);
+}
+
+.hero {
+    background-color: var(--footermaincolor);
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.section-title {
+    color: var(--titlecolor);
+}
+
+.principles-list .title {
+    color: var(--titlecolor);
+}
+
+.team .title {
+    color: var(--titlecolor);
+}
+
+.footer {
+    background-color: var(--footermaincolor);
+}
+
+.logo .foot-studio {
+    color: var(--background) ;
+}
+
+.addresses .address {
+    color: var(--background);
+}
+
+.addresses .contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    color: var(--background);
+    background-color: var(--hovactcolor);
+}
