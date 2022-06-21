@@ -182,7 +182,8 @@ body {
 
 .filter .fltr-button:hover,
 .filter .fltr-button:focus {
-    color: var(--hovactcolor);
+    color: var(--background);
+    background-color: var(--hovactcolor);
 }
 
 .work-exaple .title {
