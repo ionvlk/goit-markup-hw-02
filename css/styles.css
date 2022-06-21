@@ -5,6 +5,7 @@
     --background: #FFFFFF;
     --footermaincolor: #2F303A;
     --titlecolor: #212121;
+    --rectanglecolor: #F5F4FA;
 }
 
 /*index.html*/
@@ -104,6 +105,12 @@ body {
     cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+    color: var(--background);
+    background-color: #188CE8;
+}
+
 .section-title {
     color: var(--titlecolor);
     font-size: 36px;
@@ -172,6 +179,7 @@ body {
 /*portfolio.html*/
 .fltr-button {
     color: var(--titlecolor);
+    background-color: var(--rectanglecolor);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
